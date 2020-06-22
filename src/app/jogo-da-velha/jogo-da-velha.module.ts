@@ -8,6 +8,9 @@ import { JogoDaVelhaComponent } from './jogo-da-velha.component';
   declarations: [JogoDaVelhaComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    JogoDaVelhaComponent
   ]
 })
 export class JogoDaVelhaModule { }
